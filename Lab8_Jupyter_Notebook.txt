@@ -1,0 +1,22 @@
+Writing functions:
+Defining my_function as a function of parameters x and y
+
+def my_function(x,y):
+    '''
+    Sample function for computing
+        x = ...
+        y = ... 
+        Returns ....
+        ''''
+        
+        summation = x + y
+        return summation
+        
+        
+-  if & else statements can be used within functions to allow functions to be more versatile, ex. we did taxicab distance problem where we could specify a straightline distance or a euclidean distance
+
+
+Generating random numbers:
+numpy.random.default_rng(seed=##) - replicating same random number via seed
+
+numpy.random.default.rng(amount of random numbers)
